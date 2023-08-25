@@ -58,7 +58,7 @@ function ProjectCard({
           >
             <Grid xs={12}>
               {hasVideo ? (
-                <Container css={{ '@md': { width: '50%', height: '100vh' } }}>
+                <Container css={{ '@md': { width: '50%', height: '50vh' } }}>
 
                   <iframe
                     style={{

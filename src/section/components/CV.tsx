@@ -5,7 +5,7 @@ import {
 } from '@nextui-org/react';
 import { BsSendFill } from 'react-icons/bs';
 import { FaFilePdf } from 'react-icons/fa6';
-import cv from '../../assets/cv.pdf';
+import cv from '../../assets/cv2.pdf';
 
 function CV(): ReactElement {
   const handleScrollToContact = () => {
