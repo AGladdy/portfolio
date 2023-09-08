@@ -17,7 +17,7 @@ function Title(): ReactElement {
         },
       }}
     >
-      <Text h1 weight="bold" css={{ color: '#FAF9F6' }}>
+      <Text h1 weight="bold" css={{ color: '#FAF9F6', letterSpacing: '$wider' }}>
         Annalise Faith
       </Text>
     </Card>

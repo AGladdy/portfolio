@@ -10,7 +10,7 @@ import Footer from './section/Footer';
 function App() {
   return (
 
-    <Container gap={2}>
+    <Container gap={2} css={{ fontFamily: ' -apple-system, BlinkMacSystemFont, sans-serif' }}>
       <Header />
       <Projects />
       <Spacer y={0.2} />

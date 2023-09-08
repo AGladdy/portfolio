@@ -89,7 +89,7 @@ function Socials(): ReactElement {
           ripple
           animated
           as={Link}
-          href='"https://www.youtube.com/channel/UC5ZsjKP0P-LlC044P-efQvA"'
+          href="https://www.youtube.com/channel/UC5ZsjKP0P-LlC044P-efQvA"
           css={{
             color: 'White',
             borderColor: 'White',
@@ -125,7 +125,7 @@ function Socials(): ReactElement {
           ripple
           animated
           as={Link}
-          href='"https://www.amazon.com/shop/influencer-d12c581e?ref_=cm_sw_r_cp_ud_aipsfshop_aipsfinfluencer-d12c581e_9P5B8VH48R6B6S5SAWY1"'
+          href="https://www.amazon.com/shop/influencer-d12c581e?ref_=cm_sw_r_cp_ud_aipsfshop_aipsfinfluencer-d12c581e_9P5B8VH48R6B6S5SAWY1"
           css={{
             color: 'White',
             borderColor: 'White',
