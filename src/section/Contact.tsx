@@ -53,7 +53,7 @@ function Contact(): ReactElement {
               gap={2}
             >
               <Grid xs={12} justify="center">
-                <Text h3 weight="bold" css={{ textAlign: 'center' }}>
+                <Text h3 weight="bold" css={{ textAlign: 'center', letterSpacing: '$normal' }}>
                   Contact Me
                 </Text>
               </Grid>
@@ -69,6 +69,7 @@ function Contact(): ReactElement {
                   placeholder="Full Name"
                   value={fullName}
                   onChange={(e) => setFullName(e.target.value)}
+                  css={{ letterSpacing: '$normal' }}
                 />
               </Grid>
               <Grid xs={6}>
@@ -96,6 +97,7 @@ function Contact(): ReactElement {
                   placeholder="Number"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
+                  css={{ letterSpacing: '$normal' }}
                 />
               </Grid>
               <Grid xs={12}>
@@ -110,11 +112,12 @@ function Contact(): ReactElement {
                   placeholder="Message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
+                  css={{ letterSpacing: '$normal' }}
                 />
               </Grid>
               <Grid>
                 <Button color="warning" size="md" onClick={sendEmail} icon={<BsSendFill />}>
-                  Send
+                  <Text color="white" css={{ letterSpacing: '$normal' }}>Send</Text>
                 </Button>
               </Grid>
 

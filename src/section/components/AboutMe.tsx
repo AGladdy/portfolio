@@ -36,6 +36,7 @@ function AboutMe(): ReactElement {
           css={{
             paddingTop: '8px',
             fontSize: 14,
+            letterSpacing: '$normal',
             '@xs': {
               fontSize: 14,
             },
@@ -57,6 +58,7 @@ function AboutMe(): ReactElement {
             css={{
               paddingTop: 4,
               fontSize: 8,
+              letterSpacing: '$normal',
               '@xs': {
                 fontSize: 10,
               },
@@ -107,6 +109,7 @@ function AboutMe(): ReactElement {
             css={{
               paddingTop: 12,
               fontSize: 12,
+              letterSpacing: '$normal',
               '@xs': {
                 fontSize: 14,
               },

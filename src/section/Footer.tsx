@@ -9,7 +9,7 @@ function Footer(): ReactElement {
         <Socials />
       </Grid>
       <Grid xs={12} justify="center">
-        <Text h6 color="white">
+        <Text h6 color="white" css={{ letterSpacing: '$normal' }}>
           Designed & built by A
           <sup>2</sup>
         </Text>

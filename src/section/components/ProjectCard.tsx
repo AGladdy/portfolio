@@ -105,6 +105,7 @@ function ProjectCard({
             weight="bold"
             css={{
               paddingTop: '0px',
+              letterSpacing: '$normal',
               fontSize: 14,
               '@xs': {
                 fontSize: 14,
@@ -127,6 +128,7 @@ function ProjectCard({
               css={{
                 paddingTop: 4,
                 fontSize: 8,
+                letterSpacing: '$normal',
                 '@xs': {
                   fontSize: 10,
                 },
@@ -187,6 +189,7 @@ function ProjectCard({
             css={{
               paddingTop: 12,
               fontSize: 12,
+              letterSpacing: '$normal',
               '@xs': {
                 fontSize: 14,
               },

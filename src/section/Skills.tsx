@@ -15,10 +15,11 @@ function Skills(): ReactElement {
               justifyContent: 'center',
               display: 'flex',
               alignItems: 'center',
+              letterSpacing: '$normal',
             }}
             >
               <Card.Body>
-                <Text h3 weight="bold">
+                <Text h3 weight="bold" css={{ letterSpacing: '$normal' }}>
                   Software
                 </Text>
                 <Grid.Container
@@ -49,7 +50,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Adobe Indesign
                     </Text>
                   </Grid>
@@ -70,7 +71,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Adobe Photoshop
                     </Text>
                   </Grid>
@@ -110,7 +111,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Adobe XD
                     </Text>
                   </Grid>
@@ -130,7 +131,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Adobe After Effects
                     </Text>
                   </Grid>
@@ -150,7 +151,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Adobe Premier
                     </Text>
                   </Grid>
@@ -170,7 +171,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Microsoft Office
                     </Text>
                   </Grid>
@@ -190,7 +191,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Figma
                     </Text>
                   </Grid>
@@ -210,7 +211,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Canva
                     </Text>
                   </Grid>
@@ -230,7 +231,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Github
                     </Text>
                   </Grid>
@@ -270,7 +271,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Spark Video
                     </Text>
                   </Grid>
@@ -297,7 +298,7 @@ function Skills(): ReactElement {
                 }}
                 >
                   <Card.Body>
-                    <Text h3 weight="bold">
+                    <Text h3 weight="bold" css={{ letterSpacing: '$normal' }}>
                       Languages
                     </Text>
                     <Grid.Container
@@ -325,7 +326,7 @@ function Skills(): ReactElement {
                           minWidth: '1rem',
                         }}
                         />
-                        <Text h5>
+                        <Text h5 css={{ letterSpacing: '$normal' }}>
                           CSS
                         </Text>
                       </Grid>
@@ -345,7 +346,7 @@ function Skills(): ReactElement {
                           minWidth: '1rem',
                         }}
                         />
-                        <Text h5>
+                        <Text h5 css={{ letterSpacing: '$normal' }}>
                           HTML
                         </Text>
                       </Grid>
@@ -364,7 +365,7 @@ function Skills(): ReactElement {
                           minWidth: '1rem',
                         }}
                         />
-                        <Text h5>
+                        <Text h5 css={{ letterSpacing: '$normal' }}>
                           JS
                         </Text>
                       </Grid>
@@ -385,8 +386,8 @@ function Skills(): ReactElement {
                 >
                   <Card.Body>
                     <FaAward style={{ color: '#4267B2', fontSize: '2rem', marginBottom: '1rem' }} />
-                    <Text h5 weight="bold">Experience</Text>
-                    <Text h6> 1+ year</Text>
+                    <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>Experience</Text>
+                    <Text h6 css={{ letterSpacing: '$normal' }}> 1+ year</Text>
                   </Card.Body>
                 </Card>
               </Grid>
@@ -403,10 +404,10 @@ function Skills(): ReactElement {
                 >
                   <Card.Body>
                     <FiUsers style={{ color: '#4267B2', fontSize: '2rem', marginBottom: '1rem' }} />
-                    <Text h5 weight="bold">
+                    <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>
                       Clients
                     </Text>
-                    <Text h6> 4 served</Text>
+                    <Text h6 css={{ letterSpacing: '$normal' }}> 4 served</Text>
                   </Card.Body>
                 </Card>
               </Grid>
@@ -423,10 +424,10 @@ function Skills(): ReactElement {
                 >
                   <Card.Body style={{ justifyContent: 'center' }}>
                     <VscFolderLibrary style={{ color: '#4267B2', fontSize: '2rem', marginBottom: '1rem' }} />
-                    <Text h5 weight="bold">
+                    <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>
                       Projects
                     </Text>
-                    <Text h6>30+ built</Text>
+                    <Text h6 css={{ letterSpacing: '$normal' }}>30+ built</Text>
                   </Card.Body>
                 </Card>
               </Grid>
@@ -445,8 +446,8 @@ function Skills(): ReactElement {
             >
               <Card.Body>
                 <FaAward style={{ color: '#4267B2', fontSize: '2rem', marginBottom: '1rem' }} />
-                <Text h5 weight="bold">Exp.</Text>
-                <Text h6> 1+ year</Text>
+                <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>Exp.</Text>
+                <Text h6 css={{ letterSpacing: '$normal' }}> 1+ year</Text>
               </Card.Body>
             </Card>
           </Grid>
@@ -462,10 +463,10 @@ function Skills(): ReactElement {
             >
               <Card.Body>
                 <FiUsers style={{ color: '#4267B2', fontSize: '2rem', marginBottom: '1rem' }} />
-                <Text h5 weight="bold">
+                <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>
                   Clients
                 </Text>
-                <Text h6>4 served</Text>
+                <Text h6 css={{ letterSpacing: '$normal' }}>4 served</Text>
               </Card.Body>
             </Card>
           </Grid>
@@ -481,10 +482,10 @@ function Skills(): ReactElement {
             >
               <Card.Body style={{ justifyContent: 'center' }}>
                 <VscFolderLibrary style={{ color: '#4267B2', fontSize: '2rem', marginBottom: '1rem' }} />
-                <Text h5 weight="bold">
+                <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>
                   Projects
                 </Text>
-                <Text h6>30+ built</Text>
+                <Text h6 css={{ letterSpacing: '$normal' }}>30+ built</Text>
               </Card.Body>
             </Card>
           </Grid>
@@ -497,7 +498,7 @@ function Skills(): ReactElement {
               }}
             >
               <Card.Body>
-                <Text h3 weight="bold">
+                <Text h3 weight="bold" css={{ letterSpacing: '$normal' }}>
                   Visual Design Services
                 </Text>
                 <Grid.Container
@@ -529,7 +530,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       User Interface
                     </Text>
                   </Grid>
@@ -549,7 +550,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       User Experience
                     </Text>
                   </Grid>
@@ -569,7 +570,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Arts and Illustrations
                     </Text>
                   </Grid>
@@ -590,7 +591,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Print
                     </Text>
                   </Grid>
@@ -610,7 +611,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Logo Design
                     </Text>
                   </Grid>
@@ -630,7 +631,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       User Generated Content
                     </Text>
                   </Grid>
@@ -650,7 +651,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Storyboarding
                     </Text>
                   </Grid>
@@ -670,7 +671,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Social Media Graphics
                     </Text>
                   </Grid>
@@ -690,7 +691,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Apparel
                     </Text>
                   </Grid>
@@ -709,7 +710,7 @@ function Skills(): ReactElement {
               }}
             >
               <Card.Body>
-                <Text h3 weight="bold">
+                <Text h3 weight="bold" css={{ letterSpacing: '$normal' }}>
                   Graphic Design Services
                 </Text>
                 <Grid.Container
@@ -740,7 +741,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Typography
                     </Text>
                   </Grid>
@@ -760,7 +761,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Infograph
                     </Text>
                   </Grid>
@@ -780,7 +781,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Powerpoint
                     </Text>
                   </Grid>
@@ -801,7 +802,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Print
                     </Text>
                   </Grid>
@@ -821,7 +822,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Advertisement and Marketing
                     </Text>
                   </Grid>
@@ -841,7 +842,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Branding and Identity
                     </Text>
                   </Grid>
@@ -861,7 +862,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Event Graphics
                     </Text>
                   </Grid>
@@ -881,7 +882,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Photo Editing and Manipulation
                     </Text>
                   </Grid>
@@ -901,7 +902,7 @@ function Skills(): ReactElement {
                       minWidth: '1rem',
                     }}
                     />
-                    <Text h5>
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
                       Character Design
                     </Text>
                   </Grid>
