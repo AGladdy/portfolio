@@ -125,7 +125,7 @@ function Socials(): ReactElement {
           ripple
           animated
           as={Link}
-          href="https://www.amazon.com/shop/influencer-d12c581e?ref_=cm_sw_r_cp_ud_aipsfshop_aipsfinfluencer-d12c581e_9P5B8VH48R6B6S5SAWY1"
+          href="https://annalisefwugcportfolio.my.canva.site/"
           css={{
             color: 'White',
             borderColor: 'White',
@@ -146,10 +146,23 @@ function Socials(): ReactElement {
             },
           }}
           icon={(
-            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-amazon" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path d="M17 12.5a15.198 15.198 0 0 1 -7.37 1.44a14.62 14.62 0 0 1 -6.63 -2.94" />
-              <path d="M19.5 15c.907 -1.411 1.451 -3.323 1.5 -5c-1.197 -.773 -2.577 -.935 -4 -1" />
+            <svg fill="none" viewBox="0 0 24 24" height="24" width="24">
+              <path
+                fill="currentColor"
+                fillRule="evenodd"
+                d="M14 7a1 1 0 00-1 1v8a1 1 0 001 1h4a1 1 0 001-1V8a1 1 0 00-1-1h-4zm3 2h-2v6h2V9z"
+                clipRule="evenodd"
+              />
+              <path
+                fill="currentColor"
+                d="M6 7a1 1 0 000 2h4a1 1 0 100-2H6zM6 11a1 1 0 100 2h4a1 1 0 100-2H6zM5 16a1 1 0 011-1h4a1 1 0 110 2H6a1 1 0 01-1-1z"
+              />
+              <path
+                fill="currentColor"
+                fillRule="evenodd"
+                d="M4 3a3 3 0 00-3 3v12a3 3 0 003 3h16a3 3 0 003-3V6a3 3 0 00-3-3H4zm16 2H4a1 1 0 00-1 1v12a1 1 0 001 1h16a1 1 0 001-1V6a1 1 0 00-1-1z"
+                clipRule="evenodd"
+              />
             </svg>
           )}
         />
