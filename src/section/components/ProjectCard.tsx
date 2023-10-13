@@ -4,7 +4,12 @@ import React, { useState } from 'react';
 import {
   Button, Card, Col, User, Text, Modal, useModal, Container, Tooltip, Grid, Spacer,
 } from '@nextui-org/react';
-import PdfViewer from './PdfViewer';
+import { Viewer, Worker } from '@react-pdf-viewer/core';
+
+import '@react-pdf-viewer/core/lib/styles/index.css';
+import '@react-pdf-viewer/default-layout/lib/styles/index.css';
+
+import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 import Character from '../../assets/profile.JPG';
 
 interface ProjectCardProps {
@@ -25,7 +30,7 @@ function ProjectCard({
     setCurrentColorBG(currentColorBG === 'transparent' ? '#fb3958' : 'transparent');
     setCurrentColor(currentColor === 'black' ? '#fb3958' : 'black');
   };
-
+  const defaultLayoutPluginInstance = defaultLayoutPlugin();
   return (
     <Card
       onPress={() => setVisible(true)}
@@ -77,11 +82,12 @@ function ProjectCard({
             <Spacer />
             <Grid xs={12} css={{ alignItems: 'center', justifyContent: 'center' }}>
 
-              <Card css={{ width: 'min-content' }}>
-                <Card.Body>
-                  <PdfViewer pdf={pdf} />
-                </Card.Body>
-              </Card>
+              <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+
+                <Viewer fileUrl={pdf} plugins={[defaultLayoutPluginInstance]} />
+
+              </Worker>
+
             </Grid>
           </Grid.Container>
 

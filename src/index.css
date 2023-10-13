@@ -21,9 +21,12 @@ html {
 
 body {
 	background: transparent !important;
-	
+
 }
 
+.nextui-modal-close-icon-svg {
+	color: red !important;
+}
 
 /* if we can clip, do it */
 /* background-clip: text;
