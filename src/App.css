@@ -32,7 +32,17 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'Afronaut Regular';
+  src: local('Afronaut Regular'), local('Afronaut-Regular'),
+    url(./assets/AfronautTest-Regular.otf) format('opentype'),
+    url(./assets/AfronautTest-Regular.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
