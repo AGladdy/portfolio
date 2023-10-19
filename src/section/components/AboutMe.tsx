@@ -124,11 +124,13 @@ function AboutMe(): ReactElement {
               },
             }}
           >
-            Hi, I am a multitalented creator who produces web, graphic,
-            and visual designs.  I am a student at Arizona State University majoring in
-            Graphic Information Technology to obtain my Bachelor&apos;s of Applied Science
-            in the Ira A. Fulton Schools of Engineering.
-            I intend to make a career as a user experience designer.
+            Hi, I am a multitalented creator who produces web, graphic, and visual designs.
+            I am a student in Arizona State University&apos;s engineering program.
+            Enrolled in their Graphic Information Technology program for my BAS.
+            My main focus is Front-End development and User Interface design. My innate creativity
+            and love for art have seamlessly fused with my problem-solving skills,
+            fueling my journey in engineering to reshape the digital world through innovation
+            and technology.
           </Text>
         </Col>
       </Card.Footer>
