@@ -13,7 +13,7 @@ import max from '../assets/max.pdf';
 import moaa from '../assets/moaa.jpeg';
 import moaaPdf from '../assets/MoaaPortfolio.pdf';
 import todayPdf from '../assets/Today_Portfolio.pdf';
-import today from '../assets/Today.gif';
+import today from '../assets/today2.gif';
 
 function Projects(): ReactElement {
   return (
