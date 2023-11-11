@@ -10,7 +10,10 @@ declare module '*.jpg' {
   const value: string;
   export default src;
 }
-
+declare module '*.jpeg' {
+  const value: string;
+  export default src;
+}
 declare module '*.mp4' {
   const src: string;
   export default src;
@@ -25,6 +28,10 @@ declare module '*.GIF' {
   export default src;
 }
 
+declare module '*.gif' {
+  const src: string;
+  export default src;
+}
 declare module '*.pdf' {
   const src: string;
   export default src;
