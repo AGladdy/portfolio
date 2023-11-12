@@ -29,6 +29,7 @@ function AboutMe(): ReactElement {
           autoPlay
           loop
           muted
+          playsInline
           style={{
             width: '100%',
             height: '100%',
