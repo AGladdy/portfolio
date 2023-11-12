@@ -164,7 +164,7 @@ function ProjectCard({
 
       <Card.Footer>
         <Col>
-          <Tooltip color="warning" content="Like">
+          <Tooltip content="Like">
             <Button
               id="like"
               onPress={() => {
