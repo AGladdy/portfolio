@@ -10,7 +10,7 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
-import Character from '../../assets/profile.JPG';
+import Character from '../../assets/AFprofile.png';
 
 interface ProjectCardProps {
   text: string;
@@ -99,60 +99,59 @@ function ProjectCard({
         </Modal.Footer>
       </Modal>
       <Card.Header style={{ backgroundColor: 'transparent' }}>
-        <Tooltip color="warning" shadow content="Click to view" offset={24}>
-          <User
-            size="lg"
-            src={Character}
-            name=""
-            style={{ marginRight: '-12px' }}
-          />
 
+        <User
+          size="lg"
+          src={Character}
+          name=""
+          style={{ marginRight: '-12px' }}
+        />
+
+        <Text
+          weight="bold"
+          css={{
+            paddingTop: '0px',
+            letterSpacing: '$normal',
+            fontSize: 14,
+            '@xs': {
+              fontSize: 14,
+            },
+            '@sm': {
+              fontSize: 16,
+            },
+            '@md': {
+              fontSize: 18,
+            },
+            '@lg': {
+              fontSize: 20,
+            },
+          }}
+        >
+          annalisefw
+          <br />
           <Text
             weight="bold"
             css={{
-              paddingTop: '0px',
+              paddingTop: 4,
+              fontSize: 8,
               letterSpacing: '$normal',
-              fontSize: 14,
               '@xs': {
-                fontSize: 14,
+                fontSize: 10,
               },
               '@sm': {
-                fontSize: 16,
+                fontSize: 12,
               },
               '@md': {
-                fontSize: 18,
+                fontSize: 14,
               },
               '@lg': {
-                fontSize: 20,
+                fontSize: 16,
               },
             }}
           >
-            annalisefw
-            <br />
-            <Text
-              weight="bold"
-              css={{
-                paddingTop: 4,
-                fontSize: 8,
-                letterSpacing: '$normal',
-                '@xs': {
-                  fontSize: 10,
-                },
-                '@sm': {
-                  fontSize: 12,
-                },
-                '@md': {
-                  fontSize: 14,
-                },
-                '@lg': {
-                  fontSize: 16,
-                },
-              }}
-            >
-              New York City, New York
-            </Text>
+            New York City, New York
           </Text>
-        </Tooltip>
+        </Text>
       </Card.Header>
 
       <Card.Image

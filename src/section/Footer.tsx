@@ -10,7 +10,8 @@ function Footer(): ReactElement {
       </Grid>
       <Grid xs={12} justify="center">
         <Text h6 color="white" css={{ letterSpacing: '$normal' }}>
-          Designed & built by A
+          <br />
+          &copy; 2023 A
           <sup>2</sup>
         </Text>
       </Grid>

@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { Grid } from '@nextui-org/react';
+import { Grid, Tooltip } from '@nextui-org/react';
 // eslint-disable-next-line import/no-named-as-default
 import ProjectCard from './components/ProjectCard';
 import dc from '../assets/dc.pdf';
@@ -18,30 +18,32 @@ import today from '../assets/today2.gif';
 function Projects(): ReactElement {
   return (
     <Grid.Container id="test" css={{ marginTop: '-12px' }}>
-      <Grid>
-        <Grid.Container gap={2} alignItems="center" justify="space-evenly">
-          <Grid md={6}>
+      <Tooltip shadow content="Click to view" placement="top" keepMounted>
+        <Grid>
+          <Grid.Container gap={2} alignItems="center" justify="space-evenly">
+            <Grid md={6}>
 
-            <ProjectCard text="Trend Cycle" pdf={tc} hasVideo video="DxJ3OQ84Uk8" postPic={tcPic} />
+              <ProjectCard text="Trend Cycle" pdf={tc} hasVideo video="DxJ3OQ84Uk8" postPic={tcPic} />
 
-          </Grid>
-          <Grid md={6}>
-            <ProjectCard text="Drop Culture" pdf={dc} hasVideo video="ZJKary_rEsw" postPic={dcPic} />
-          </Grid>
-          <Grid md={6}>
-            <ProjectCard text="Mates" pdf={mates} hasVideo video="UTGxgB4pazI" postPic={matesPic} />
-          </Grid>
-          <Grid md={6}>
-            <ProjectCard text="Max Conference" pdf={max} hasVideo video="q_ZR6oV61OU" postPic={maxPic} />
-          </Grid>
-          <Grid md={6}>
-            <ProjectCard text="Military Officers Association of America" hasVideo={false} video="" pdf={moaaPdf} postPic={moaa} />
-          </Grid>
-          <Grid md={6}>
-            <ProjectCard text="Today" hasVideo={false} video="" pdf={todayPdf} postPic={today} />
-          </Grid>
-        </Grid.Container>
-      </Grid>
+            </Grid>
+            <Grid md={6}>
+              <ProjectCard text="Drop Culture" pdf={dc} hasVideo video="ZJKary_rEsw" postPic={dcPic} />
+            </Grid>
+            <Grid md={6}>
+              <ProjectCard text="Mates" pdf={mates} hasVideo video="UTGxgB4pazI" postPic={matesPic} />
+            </Grid>
+            <Grid md={6}>
+              <ProjectCard text="Max Conference" pdf={max} hasVideo video="q_ZR6oV61OU" postPic={maxPic} />
+            </Grid>
+            <Grid md={6}>
+              <ProjectCard text="Military Officers Association of America" hasVideo={false} video="" pdf={moaaPdf} postPic={moaa} />
+            </Grid>
+            <Grid md={6}>
+              <ProjectCard text="Today" hasVideo={false} video="" pdf={todayPdf} postPic={today} />
+            </Grid>
+          </Grid.Container>
+        </Grid>
+      </Tooltip>
     </Grid.Container>
 
   );
