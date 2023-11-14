@@ -14,14 +14,16 @@ function AboutMe(): ReactElement {
     }}
     >
       <Card.Header />
-      <Card style={{
-        position: 'relative',
-        width: '50%', // Set a fixed width for the circular cutout
-        height: '50%', // Set a fixed height for the circular cutout
-        borderRadius: '50%', // Make the container circular
-        overflow: 'hidden', // Hide anything outside the circular shape
-        margin: 'auto', // Center the circular cutout
-      }}
+      <Card
+        style={{
+          position: 'relative',
+          width: '50%', // Set a fixed width for the circular cutout
+          height: '50%', // Set a fixed height for the circular cutout
+          borderRadius: '50%', // Make the container circular
+          overflow: 'hidden', // Hide anything outside the circular shape
+          margin: 'auto', // Center the circular cutout
+        }}
+        variant="flat"
       >
         <video
           width="50%"
