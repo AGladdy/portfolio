@@ -387,7 +387,7 @@ function Skills(): ReactElement {
                   <Card.Body>
                     <FaAward style={{ color: '#4267B2', fontSize: '2rem', marginBottom: '1rem' }} />
                     <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>Experience</Text>
-                    <Text h6 css={{ letterSpacing: '$normal' }}> 1+ year</Text>
+                    <Text h6 css={{ letterSpacing: '$normal' }}> 2+ year</Text>
                   </Card.Body>
                 </Card>
               </Grid>
