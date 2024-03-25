@@ -65,13 +65,13 @@ function AboutMe(): ReactElement {
               },
             }}
           >
-            Hi, I am a multitalented creator who produces web, graphic, and visual designs.
-            I am a student in Arizona State University&apos;s engineering program.
-            Enrolled in their Graphic Information Technology program for my BAS.
-            My main focus is Front-End development and User Interface design. My innate creativity
-            and love for art have seamlessly fused with my problem-solving skills,
-            fueling my journey in engineering to reshape the digital world through innovation
-            and technology.
+            Hi, I&apos;m a versatile creator specializing in web, graphic, and visual design.
+            I recently completed my studies at Arizona State University, earning a Bachelor
+            of Applied Science degree from their esteemed Graphic Information Technology
+            program. My primary areas of expertise include Graphic Design, Front-End
+            Development, and User Interface Design. Blending my innate creativity with
+            a passion for problem-solving, I am on a mission to innovate and reshape the
+            digital landscape through cutting-edge technology.
           </Text>
         </Col>
       </Card.Footer>
