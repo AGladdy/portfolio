@@ -65,13 +65,11 @@ function AboutMe(): ReactElement {
               },
             }}
           >
-            Hi, I&apos;m a versatile creator specializing in web, graphic, and visual design.
-            I recently completed my studies at Arizona State University, earning a Bachelor
-            of Applied Science degree from their esteemed Graphic Information Technology
-            program. My primary areas of expertise include Graphic Design, Front-End
-            Development, and User Interface Design. Blending my innate creativity with
-            a passion for problem-solving, I am on a mission to innovate and reshape the
-            digital landscape through cutting-edge technology.
+            I&apos;m a creative professional with expertise in web, graphic,
+            and visual design, holding a Bachelor&apos;s in Graphic Information
+            Technology from Arizona State University. Specializing in Graphic
+            Design, Front-End Development, and User Interface Design, I blend
+            creativity and problem-solving to innovate in the digital realm.
           </Text>
         </Col>
       </Card.Footer>
