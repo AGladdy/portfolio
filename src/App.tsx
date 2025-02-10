@@ -12,6 +12,7 @@ function App() {
 
     <Container gap={2} css={{ fontFamily: ' -apple-system, BlinkMacSystemFont, sans-serif', letterSpacing: '$normal' }}>
       <Header />
+      <Spacer y={0.2} />
       <Projects />
       <Spacer y={0.2} />
       <Skills />

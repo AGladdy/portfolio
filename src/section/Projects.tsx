@@ -12,8 +12,10 @@ import maxPic from '../assets/maxPic.jpeg';
 import max from '../assets/max.pdf';
 import moaa from '../assets/moaa.jpeg';
 import moaaPdf from '../assets/MoaaPortfolio.pdf';
-import todayPdf from '../assets/Today_Portfolio.pdf';
-import today from '../assets/today2.gif';
+import songPdf from '../assets/sos.pdf';
+import songPic from '../assets/SOS.gif';
+import tsPic from '../assets/time.png';
+import tsPdf from '../assets/social.pdf';
 
 function Projects(): ReactElement {
   return (
@@ -21,6 +23,16 @@ function Projects(): ReactElement {
       <Tooltip shadow content="Click to view" placement="top">
         <Grid>
           <Grid.Container gap={2} alignItems="center" justify="space-evenly">
+            <Grid md={6}>
+
+              <ProjectCard text="(RED) Song of Summer ft. Fiat and Chart Data" pdf={songPdf} hasVideo video="QcKf7czGnoQ" postPic={songPic} hasWebsite website="https://www.red.org/reditorial/partnership/the-song-of-the-summer-fiat/" />
+
+            </Grid>
+            <Grid md={6}>
+
+              <ProjectCard text="(RED) Social Media" pdf={tsPdf} postPic={tsPic} hasWebsite website="https://www.red.org/reditorial/learn/4-reasons-iron-deficiency-can-be-dangerous-for-people-living-with-hiv/" />
+
+            </Grid>
             <Grid md={6}>
 
               <ProjectCard text="Trend Cycle" pdf={tc} hasVideo video="DxJ3OQ84Uk8" postPic={tcPic} hasWebsite website="https://annalisefaith.github.io/Trend-Cycle/about.html" />
@@ -37,9 +49,6 @@ function Projects(): ReactElement {
             </Grid>
             <Grid md={6}>
               <ProjectCard text="Military Officers Association of America" hasVideo={false} video="" pdf={moaaPdf} postPic={moaa} hasWebsite={false} website="" />
-            </Grid>
-            <Grid md={6}>
-              <ProjectCard text="Today" hasVideo={false} video="" pdf={todayPdf} postPic={today} hasWebsite={false} website="" />
             </Grid>
           </Grid.Container>
         </Grid>

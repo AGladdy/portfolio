@@ -15,8 +15,10 @@ import Character from '../../assets/AFprofile.png';
 interface ProjectCardProps {
   text: string;
   pdf: string;
-  hasVideo: boolean;
-  video: string;
+  // eslint-disable-next-line react/require-default-props
+  hasVideo?: boolean;
+  // eslint-disable-next-line react/require-default-props
+  video?: string;
   postPic: string;
   hasWebsite: boolean;
   website: string;
@@ -112,7 +114,7 @@ function ProjectCard({
                     </svg>
                   )}
                 >
-                  <Text color="white" css={{ letterSpacing: '$normal' }}>Visit Website</Text>
+                  <Text color="white" css={{ letterSpacing: '$normal' }}>Read More</Text>
                 </Button>
               ) : null}
             </Grid>

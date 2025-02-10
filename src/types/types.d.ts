@@ -23,6 +23,10 @@ declare module '*.MP4' {
   export default src;
 }
 
+declare module '*.mov' {
+  const src: string;
+  export default src;
+}
 declare module '*.GIF' {
   const src: string;
   export default src;
