@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-bind */
 import type { ReactElement } from 'react';
 import React, { useState } from 'react';
 import {
@@ -194,7 +193,6 @@ function ProjectCard({
           </Text>
         </Text>
       </Card.Header>
-
       <Card.Image
         src={postPic}
         alt="Cover photo from a project"
@@ -202,7 +200,6 @@ function ProjectCard({
         autoResize
         showSkeleton
       />
-
       <Card.Footer>
         <Col>
           <Tooltip content="Like">
