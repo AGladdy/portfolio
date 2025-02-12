@@ -20,8 +20,10 @@ interface ProjectCardProps {
   // eslint-disable-next-line react/require-default-props
   video?: string;
   postPic: string;
-  hasWebsite: boolean;
-  website: string;
+  // eslint-disable-next-line react/require-default-props
+  hasWebsite?: boolean;
+  // eslint-disable-next-line react/require-default-props
+  website?: string;
 }
 
 function ProjectCard({

@@ -2,6 +2,11 @@ declare module '*.png' {
   const value: string;
   export default src;
 }
+declare module '*.PNG' {
+  const value: string;
+  export default src;
+}
+
 declare module '*.JPG' {
   const value: string;
   export default src;
