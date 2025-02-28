@@ -11,7 +11,7 @@ function Footer(): ReactElement {
       <Grid xs={12} justify="center">
         <Text h6 color="white" css={{ letterSpacing: '$normal' }}>
           <br />
-          &copy; 2023 A
+          &copy; 2025 A
           <sup>2</sup>
         </Text>
       </Grid>
