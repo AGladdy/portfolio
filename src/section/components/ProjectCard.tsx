@@ -78,7 +78,7 @@ function ProjectCard({
                     className="video"
                     title="Youtube player"
                     sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-presentation"
-                    src={`https://youtube.com/embed/${video}?autoplay=1`}
+                    src={`${video}`}
                   />
 
                 </Container>
