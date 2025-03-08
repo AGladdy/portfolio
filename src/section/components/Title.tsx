@@ -1,8 +1,8 @@
 import type { ReactElement } from 'react';
 import React from 'react';
-// if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
 import {
-  Card, Image, Grid,
+  Card, Image, Grid, Text,
+  Spacer,
 } from '@nextui-org/react';
 
 import logo from '../../assets/AF logo.png';
@@ -18,27 +18,29 @@ function Title(): ReactElement {
       }}
     >
       <Grid.Container css={{ display: 'flex', flexDirection: 'column', '@md': { flexDirection: 'row' } }}>
-        <Grid css={{ alignContent: 'center', paddingTop: '14px' }}>
+        <Grid css={{ alignContent: 'center' }} xs={12} md={6}>
           <Image
             src={logo}
             css={{
-              width: '128px',
-              height: '128px',
+              width: '12vh',
+              height: '12vh',
 
             }}
           />
         </Grid>
-        {/* <Grid>
+        <Spacer x={2} />
+        <Grid css={{ '@xs': { display: 'flex-end', paddingLeft: '12px' } }} xs={12} md={8}>
           <Text
-            h2
+            h3
             weight="bold"
             css={{
-              color: '#FAF9F6', letterSpacing: '$wide', fontFamily: 'Afronaut Regular',
+              color: 'white',
+              letterSpacing: '$wide',
             }}
           >
-            Annalise Faith
+            Graphic Designer + Digital Marketer
           </Text>
-        </Grid> */}
+        </Grid>
       </Grid.Container>
     </Card>
 

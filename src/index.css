@@ -1,5 +1,6 @@
 html {
-	background: linear-gradient(to right, #E73C7E, #4267b2);
+	background-color: #000000;
+	background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
 	background-size: 400% 400%;
 	animation: gradient 20s ease infinite;
 
@@ -25,6 +26,6 @@ body {
 }
 
 .nextui-modal-close-icon-svg {
-	color: #F4A425 !important;
+	color: #4267B2 !important;
 }
 

@@ -46,7 +46,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -67,7 +67,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -87,7 +87,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -107,7 +107,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -127,7 +127,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -147,7 +147,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -167,7 +167,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -187,7 +187,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -207,7 +207,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -227,7 +227,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -247,12 +247,12 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
                     <Text h5>
-                      CodePen
+                      Emplify
                     </Text>
                   </Grid>
                   <Grid
@@ -267,12 +267,72 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
                     <Text h5 css={{ letterSpacing: '$normal' }}>
-                      Spark Video
+                      Salesforce
+                    </Text>
+                  </Grid>
+                  <Grid
+                    xs={6}
+                    sm={4}
+                    style={{
+                      justifyContent: 'flex-start',
+                      display: 'flex',
+                      alignItems: 'center',
+                    }}
+                  >
+                    <BsPatchCheckFill style={{
+                      marginRight: '12px',
+                      marginTop: '-4px',
+                      color: '#0072F5',
+                      minWidth: '1rem',
+                    }}
+                    />
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
+                      Capcut
+                    </Text>
+                  </Grid>
+                  <Grid
+                    xs={6}
+                    sm={4}
+                    style={{
+                      justifyContent: 'flex-start',
+                      display: 'flex',
+                      alignItems: 'center',
+                    }}
+                  >
+                    <BsPatchCheckFill style={{
+                      marginRight: '12px',
+                      marginTop: '-4px',
+                      color: '#0072F5',
+                      minWidth: '1rem',
+                    }}
+                    />
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
+                      WordPress
+                    </Text>
+                  </Grid>
+                  <Grid
+                    xs={6}
+                    sm={4}
+                    style={{
+                      justifyContent: 'flex-start',
+                      display: 'flex',
+                      alignItems: 'center',
+                    }}
+                  >
+                    <BsPatchCheckFill style={{
+                      marginRight: '12px',
+                      marginTop: '-4px',
+                      color: '#0072F5',
+                      minWidth: '1rem',
+                    }}
+                    />
+                    <Text h5 css={{ letterSpacing: '$normal' }}>
+                      Mailchimp
                     </Text>
                   </Grid>
                 </Grid.Container>
@@ -322,7 +382,7 @@ function Skills(): ReactElement {
                         <BsPatchCheckFill style={{
                           marginRight: '12px',
                           marginTop: '-4px',
-                          color: '#4267B2',
+                          color: '#0072F5',
                           minWidth: '1rem',
                         }}
                         />
@@ -342,7 +402,7 @@ function Skills(): ReactElement {
                         <BsPatchCheckFill style={{
                           marginRight: '12px',
                           marginTop: '-4px',
-                          color: '#4267B2',
+                          color: '#0072F5',
                           minWidth: '1rem',
                         }}
                         />
@@ -361,7 +421,7 @@ function Skills(): ReactElement {
                         <BsPatchCheckFill style={{
                           marginRight: '12px',
                           marginTop: '-4px',
-                          color: '#4267B2',
+                          color: '#0072F5',
                           minWidth: '1rem',
                         }}
                         />
@@ -385,9 +445,9 @@ function Skills(): ReactElement {
                 }}
                 >
                   <Card.Body>
-                    <FaAward style={{ color: '#4267B2', fontSize: '2rem', marginBottom: '1rem' }} />
+                    <FaAward style={{ color: '#0072F5', fontSize: '2rem', marginBottom: '1rem' }} />
                     <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>Experience</Text>
-                    <Text h6 css={{ letterSpacing: '$normal' }}> 2+ year</Text>
+                    <Text h6 css={{ letterSpacing: '$normal' }}> 4+ year</Text>
                   </Card.Body>
                 </Card>
               </Grid>
@@ -403,11 +463,11 @@ function Skills(): ReactElement {
                 }}
                 >
                   <Card.Body>
-                    <FiUsers style={{ color: '#4267B2', fontSize: '2rem', marginBottom: '1rem' }} />
+                    <FiUsers style={{ color: '#0072F5', fontSize: '2rem', marginBottom: '1rem' }} />
                     <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>
                       Clients
                     </Text>
-                    <Text h6 css={{ letterSpacing: '$normal' }}> 4 served</Text>
+                    <Text h6 css={{ letterSpacing: '$normal' }}> 30+ served</Text>
                   </Card.Body>
                 </Card>
               </Grid>
@@ -423,11 +483,11 @@ function Skills(): ReactElement {
                 }}
                 >
                   <Card.Body style={{ justifyContent: 'center' }}>
-                    <VscFolderLibrary style={{ color: '#4267B2', fontSize: '2rem', marginBottom: '1rem' }} />
+                    <VscFolderLibrary style={{ color: '#0072F5', fontSize: '2rem', marginBottom: '1rem' }} />
                     <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>
                       Projects
                     </Text>
-                    <Text h6 css={{ letterSpacing: '$normal' }}>30+ built</Text>
+                    <Text h6 css={{ letterSpacing: '$normal' }}>70+ built</Text>
                   </Card.Body>
                 </Card>
               </Grid>
@@ -445,7 +505,7 @@ function Skills(): ReactElement {
             }}
             >
               <Card.Body>
-                <FaAward style={{ color: '#4267B2', fontSize: '2rem', marginBottom: '1rem' }} />
+                <FaAward style={{ color: '#0072F5', fontSize: '2rem', marginBottom: '1rem' }} />
                 <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>Exp.</Text>
                 <Text h6 css={{ letterSpacing: '$normal' }}> 1+ year</Text>
               </Card.Body>
@@ -462,7 +522,7 @@ function Skills(): ReactElement {
             }}
             >
               <Card.Body>
-                <FiUsers style={{ color: '#4267B2', fontSize: '2rem', marginBottom: '1rem' }} />
+                <FiUsers style={{ color: '#0072F5', fontSize: '2rem', marginBottom: '1rem' }} />
                 <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>
                   Clients
                 </Text>
@@ -481,7 +541,7 @@ function Skills(): ReactElement {
             }}
             >
               <Card.Body style={{ justifyContent: 'center' }}>
-                <VscFolderLibrary style={{ color: '#4267B2', fontSize: '2rem', marginBottom: '1rem' }} />
+                <VscFolderLibrary style={{ color: '#0072F5', fontSize: '2rem', marginBottom: '1rem' }} />
                 <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>
                   Projects
                 </Text>
@@ -526,7 +586,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -546,7 +606,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -566,7 +626,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -587,7 +647,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -607,7 +667,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -627,7 +687,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -647,7 +707,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -667,7 +727,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -687,7 +747,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -737,7 +797,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -757,7 +817,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -777,7 +837,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -798,7 +858,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -818,7 +878,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -838,7 +898,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -858,7 +918,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -878,7 +938,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />
@@ -898,7 +958,7 @@ function Skills(): ReactElement {
                     <BsPatchCheckFill style={{
                       marginRight: '12px',
                       marginTop: '-4px',
-                      color: '#4267B2',
+                      color: '#0072F5',
                       minWidth: '1rem',
                     }}
                     />

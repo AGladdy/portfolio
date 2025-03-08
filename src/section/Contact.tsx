@@ -64,7 +64,7 @@ function Contact(): ReactElement {
                   required
                   fullWidth
                   size="lg"
-                  status="warning"
+                  status="primary"
                   label="Full Name*"
                   placeholder="Full Name"
                   value={fullName}
@@ -79,7 +79,7 @@ function Contact(): ReactElement {
                   required
                   size="lg"
                   fullWidth
-                  status="warning"
+                  status="primary"
                   label="Email*"
                   placeholder="Email"
                   value={email}
@@ -92,7 +92,7 @@ function Contact(): ReactElement {
                   bordered
                   size="lg"
                   fullWidth
-                  status="warning"
+                  status="primary"
                   label="Phone"
                   placeholder="Number"
                   value={phone}
@@ -107,7 +107,7 @@ function Contact(): ReactElement {
                   required
                   size="lg"
                   fullWidth
-                  status="warning"
+                  status="primary"
                   label="Message*"
                   placeholder="Message"
                   value={message}
@@ -116,7 +116,7 @@ function Contact(): ReactElement {
                 />
               </Grid>
               <Grid>
-                <Button color="warning" size="md" onClick={sendEmail} icon={<BsSendFill />}>
+                <Button color="primary" size="md" onClick={sendEmail} icon={<BsSendFill />}>
                   <Text color="white" css={{ letterSpacing: '$normal' }}>Send</Text>
                 </Button>
               </Grid>

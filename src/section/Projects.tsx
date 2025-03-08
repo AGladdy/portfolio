@@ -17,22 +17,34 @@ import max from '../assets/max.pdf';
 import moaa from '../assets/moaa.jpeg';
 import moaaPdf from '../assets/MoaaPortfolio.pdf';
 import songPdf from '../assets/sos.pdf';
-import songPic from '../assets/SOS.gif';
+import songPic from '../assets/shortVideo_cover.gif';
 import tcVid from '../assets/tcVid.mp4';
 import tsPic from '../assets/time.png';
 import tsPdf from '../assets/social.pdf';
 import sPic from '../assets/printcover.png';
 import sPdf from '../assets/printportfolio.pdf';
+import vDay from '../assets/Vdaycover.png';
+import vDayPdf from '../assets/ValentinesDay_website.pdf';
 
 function Projects(): ReactElement {
   return (
-    <Grid.Container id="test" css={{ marginTop: '-12px' }}>
+    <Grid.Container id="test" css={{ marginTop: '16px' }}>
       <Tooltip shadow content="Click to view" placement="top">
         <Grid>
           <Grid.Container gap={2} alignItems="center" justify="space-evenly">
             <Grid md={6}>
 
-              <ProjectCard text="(RED) Song of Summer ft. Fiat and Chart Data" pdf={songPdf} postPic={songPic} hasWebsite website="https://www.red.org/reditorial/partnership/the-song-of-the-summer-fiat/" />
+              <ProjectCard text="(RED) Song of Summer Campaign ft. Fiat and Chart Data" pdf={songPdf} postPic={songPic} hasWebsite website="https://www.red.org/reditorial/partnership/the-song-of-the-summer-fiat/" />
+
+            </Grid>
+            <Grid md={6}>
+
+              <ProjectCard text="(RED) Valentine's Day Campaign" pdf={vDayPdf} postPic={vDay} />
+
+            </Grid>
+            <Grid md={6}>
+
+              <ProjectCard text="Short Form Videos" pdf={songPdf} postPic={songPic} isSocialMedia />
 
             </Grid>
             <Grid md={6}>

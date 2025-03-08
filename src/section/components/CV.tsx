@@ -44,7 +44,7 @@ function CV(): ReactElement {
               ripple
               animated
               size="lg"
-              color="warning"
+              color="primary"
               css={{
                 boxShadow: '0 3px 12px rgb(0 0 0 / 0.1)',
                 padding: '0 24px 0 24px',
@@ -71,7 +71,6 @@ function CV(): ReactElement {
               ripple
               animated
               size="lg"
-              color="warning"
               css={{
                 boxShadow: '0 3px 12px rgb(0 0 0 / 0.1)',
                 padding: '0 24px 0 24px',
