@@ -318,7 +318,7 @@ function ProjectCard({
               },
             }}
           >
-            New York City, New York
+            New York, New York
           </Text>
         </Text>
       </Card.Header>
