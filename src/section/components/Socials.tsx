@@ -26,8 +26,8 @@ function Socials(): ReactElement {
             backgroundColor: 'transparent',
             backdropFilter: 'blur(16px)',
             '&:hover': {
-              background: '$yellow100',
-              color: '#F5A524',
+              background: '$blue200',
+              color: '$blue600',
             },
             padding: '0 8px 0 8px',
             '@sm': {
@@ -63,8 +63,8 @@ function Socials(): ReactElement {
             backgroundColor: 'transparent',
             backdropFilter: 'blur(16px)',
             '&:hover': {
-              background: '$yellow100',
-              color: '#F5A524',
+              background: '$blue200',
+              color: '$blue600',
             },
             padding: '0 8px 0 8px',
             '@sm': {
@@ -98,8 +98,8 @@ function Socials(): ReactElement {
             backgroundColor: 'transparent',
             backdropFilter: 'blur(16px)',
             '&:hover': {
-              background: '$yellow100',
-              color: '#F5A524',
+              background: '$blue200',
+              color: '$blue600',
             },
             padding: '0 8px 0 8px',
             '@sm': {
@@ -134,8 +134,8 @@ function Socials(): ReactElement {
             backgroundColor: 'transparent',
             backdropFilter: 'blur(16px)',
             '&:hover': {
-              background: '$yellow100',
-              color: '#F5A524',
+              background: '$blue200',
+              color: '$blue600',
             },
             padding: '0 8px 0 8px',
             '@sm': {
@@ -184,8 +184,8 @@ function Socials(): ReactElement {
             backgroundColor: 'transparent',
             backdropFilter: 'blur(16px)',
             '&:hover': {
-              background: '$yellow100',
-              color: '#F5A524',
+              background: '$blue200',
+              color: '$blue600',
             },
             padding: '0 8px 0 8px',
             '@sm': {
@@ -222,8 +222,8 @@ function Socials(): ReactElement {
             backgroundColor: 'transparent',
             backdropFilter: 'blur(16px)',
             '&:hover': {
-              background: '$yellow100',
-              color: '#F5A524',
+              background: '$blue200',
+              color: '$blue600',
             },
             padding: '0 8px 0 8px',
             '@sm': {
