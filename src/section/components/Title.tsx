@@ -29,7 +29,7 @@ function Title(): ReactElement {
           />
         </Grid>
         <Spacer x={2} />
-        <Grid css={{ '@xs': { display: 'flex-end', marginLeft: '-16px' } }} xs={12} md={8}>
+        <Grid css={{ '@xs': { display: 'flex-end', marginLeft: '-4px' } }} xs={12} md={8}>
           <Text
             h4
             weight="bold"
@@ -38,7 +38,7 @@ function Title(): ReactElement {
               letterSpacing: '$wide',
             }}
           >
-            &nbsp;&nbsp;&nbsp;&nbsp;Graphic Designer + Digital Marketer
+            &nbsp;&nbsp;Graphic Designer + Digital Marketer
           </Text>
         </Grid>
       </Grid.Container>
