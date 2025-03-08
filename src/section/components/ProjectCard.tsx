@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/media-has-caption */
+
 import type { ReactElement } from 'react';
 import React, { useState } from 'react';
 import {
@@ -78,42 +80,39 @@ function ProjectCard({
             <Grid.Container css={{ alignItems: 'center', justifyContent: 'center' }}>
               <Grid xs={5} md={4} css={{ marginBottom: '4vh' }}>
                 <Container css={{ '@xs': { width: 'auto', height: '50vh' }, '@md': { width: 'auto', height: '50vh' } }}>
-                  <iframe
+                  <video
                     style={{
                       height: '100%', width: '100%', position: 'relative',
                     }}
-                    allowFullScreen
+                    controls
                     className="video"
-                    title="Youtube player"
-                    sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-presentation"
+                    title="Video player"
                     src={vid1}
                   />
                 </Container>
               </Grid>
               <Grid xs={5} md={4} css={{ marginBottom: '4vh' }}>
                 <Container css={{ '@xs': { width: 'auto', height: '50vh' }, '@md': { width: 'auto', height: '50vh' } }}>
-                  <iframe
+                  <video
                     style={{
                       height: '100%', width: '100%', position: 'relative',
                     }}
-                    allowFullScreen
+                    controls
                     className="video"
-                    title="Youtube player"
-                    sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-presentation"
+                    title="Video player"
                     src={vid6}
                   />
                 </Container>
               </Grid>
               <Grid xs={5} md={4} css={{ marginBottom: '4vh' }}>
                 <Container css={{ '@xs': { width: 'auto', height: '50vh' }, '@md': { width: 'auto', height: '50vh' } }}>
-                  <iframe
+                  <video
                     style={{
                       height: '100%', width: '100%', position: 'relative',
                     }}
-                    allowFullScreen
+                    controls
                     className="video"
-                    title="Youtube player"
-                    sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-presentation"
+                    title="Video player"
                     src={vid2}
                   />
                 </Container>
@@ -121,14 +120,13 @@ function ProjectCard({
 
               <Grid xs={5} md={4} css={{ marginBottom: '4vh' }}>
                 <Container css={{ '@xs': { width: 'auto', height: '50vh' }, '@md': { width: 'auto', height: '50vh' } }}>
-                  <iframe
+                  <video
                     style={{
                       height: '100%', width: '100%', position: 'relative',
                     }}
-                    allowFullScreen
+                    controls
                     className="video"
-                    title="Youtube player"
-                    sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-presentation"
+                    title="Video player"
                     src={vid3}
                   />
                 </Container>
@@ -136,56 +134,52 @@ function ProjectCard({
 
               <Grid xs={5} md={4} css={{ marginBottom: '4vh' }}>
                 <Container css={{ '@xs': { width: 'auto', height: '50vh' }, '@md': { width: 'auto', height: '50vh' } }}>
-                  <iframe
+                  <video
                     style={{
                       height: '100%', width: '100%', position: 'relative',
                     }}
-                    allowFullScreen
+                    controls
                     className="video"
-                    title="Youtube player"
-                    sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-presentation"
+                    title="Video player"
                     src={vid5}
                   />
                 </Container>
               </Grid>
               <Grid xs={5} md={4} css={{ marginBottom: '4vh' }}>
                 <Container css={{ '@xs': { width: 'auto', height: '50vh' }, '@md': { width: 'auto', height: '50vh' } }}>
-                  <iframe
+                  <video
                     style={{
                       height: '100%', width: '100%', position: 'relative',
                     }}
-                    allowFullScreen
+                    controls
                     className="video"
-                    title="Youtube player"
-                    sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-presentation"
+                    title="Video player"
                     src={vid4}
                   />
                 </Container>
               </Grid>
               <Grid xs={5} md={4} css={{ marginBottom: '4vh' }}>
                 <Container css={{ '@xs': { width: 'auto', height: '50vh' }, '@md': { width: 'auto', height: '50vh' } }}>
-                  <iframe
+                  <video
                     style={{
                       height: '100%', width: '100%', position: 'relative',
                     }}
-                    allowFullScreen
+                    controls
                     className="video"
-                    title="Youtube player"
-                    sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-presentation"
+                    title="Video player"
                     src={vid7}
                   />
                 </Container>
               </Grid>
               <Grid xs={5} md={4} css={{ marginBottom: '4vh' }}>
                 <Container css={{ '@xs': { width: 'auto', height: '50vh' }, '@md': { width: 'auto', height: '50vh' } }}>
-                  <iframe
+                  <video
                     style={{
                       height: '100%', width: '100%', position: 'relative',
                     }}
-                    allowFullScreen
+                    controls
                     className="video"
-                    title="Youtube player"
-                    sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-presentation"
+                    title="Video player"
                     src={vid8}
                   />
                 </Container>
@@ -258,7 +252,7 @@ function ProjectCard({
 
                 <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
 
-                  <Viewer fileUrl={pdf} plugins={[defaultLayoutPluginInstance]} />
+                  <Viewer fileUrl={pdf} plugins={[defaultLayoutPluginInstance]} theme="dark" />
 
                 </Worker>
 

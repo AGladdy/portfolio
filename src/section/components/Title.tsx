@@ -29,16 +29,16 @@ function Title(): ReactElement {
           />
         </Grid>
         <Spacer x={2} />
-        <Grid css={{ '@xs': { display: 'flex-end', paddingLeft: '12px' } }} xs={12} md={8}>
+        <Grid css={{ '@xs': { display: 'flex-end', marginLeft: '-16px' } }} xs={12} md={8}>
           <Text
-            h3
+            h4
             weight="bold"
             css={{
               color: 'white',
               letterSpacing: '$wide',
             }}
           >
-            Graphic Designer + Digital Marketer
+            &nbsp;&nbsp;&nbsp;&nbsp;Graphic Designer + Digital Marketer
           </Text>
         </Grid>
       </Grid.Container>

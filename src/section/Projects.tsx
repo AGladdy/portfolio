@@ -17,7 +17,7 @@ import max from '../assets/max.pdf';
 import moaa from '../assets/moaa.jpeg';
 import moaaPdf from '../assets/MoaaPortfolio.pdf';
 import songPdf from '../assets/sos.pdf';
-import songPic from '../assets/shortVideo_cover.gif';
+import songPic from '../assets/SOS.gif';
 import tcVid from '../assets/tcVid.mp4';
 import tsPic from '../assets/time.png';
 import tsPdf from '../assets/social.pdf';
@@ -25,6 +25,7 @@ import sPic from '../assets/printcover.png';
 import sPdf from '../assets/printportfolio.pdf';
 import vDay from '../assets/Vdaycover.png';
 import vDayPdf from '../assets/ValentinesDay_website.pdf';
+import shortPic from '../assets/shortVideo_cover.gif';
 
 function Projects(): ReactElement {
   return (
@@ -44,12 +45,12 @@ function Projects(): ReactElement {
             </Grid>
             <Grid md={6}>
 
-              <ProjectCard text="Short Form Videos" pdf={songPdf} postPic={songPic} isSocialMedia />
+              <ProjectCard text="(RED) Social Media" pdf={tsPdf} postPic={tsPic} hasWebsite website="https://www.red.org/reditorial/learn/4-reasons-iron-deficiency-can-be-dangerous-for-people-living-with-hiv/" />
 
             </Grid>
             <Grid md={6}>
 
-              <ProjectCard text="(RED) Social Media" pdf={tsPdf} postPic={tsPic} hasWebsite website="https://www.red.org/reditorial/learn/4-reasons-iron-deficiency-can-be-dangerous-for-people-living-with-hiv/" />
+              <ProjectCard text="Short Form Videos" pdf={shortPic} postPic={shortPic} isSocialMedia />
 
             </Grid>
             <Grid md={6}>
