@@ -31,22 +31,11 @@ function Title(): ReactElement {
         <Spacer x={2} />
         <Grid css={{ '@xs': { display: 'flex-end', marginLeft: '-4px' } }} xs={12} md={8}>
           <Text
+            h5
             weight="bold"
             css={{
               color: 'white',
               letterSpacing: '$wide',
-              '@xs': {
-                fontSize: 36,
-              },
-              '@sm': {
-                fontSize: 36,
-              },
-              '@md': {
-                fontSize: 36,
-              },
-              '@lg': {
-                fontSize: 36,
-              },
             }}
           >
             &nbsp;&nbsp;Graphic Designer + Digital Marketer
