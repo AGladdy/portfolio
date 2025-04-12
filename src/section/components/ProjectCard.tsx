@@ -55,10 +55,12 @@ function ProjectCard({
   const zoomPluginInstance = zoomPlugin();
   const zoom = zoomPluginInstance.zoomTo;
   const [zoomLevel, setZoomLevel] = useState(1.5); // Default fallback
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
     const isXS = window.innerWidth < 600;
     setZoomLevel(isXS ? 0.6 : 1.5);
+    setIsClient(true); // Only show Viewer after we're in the browser
   }, []);
   
   return (
@@ -261,17 +263,19 @@ function ProjectCard({
               <Spacer />
               <Grid xs={12} css={{ alignItems: 'center', justifyContent: 'center' }}>
 
-              <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
-              <Viewer
-                key={zoomLevel} // triggers rerender when zoomLevel changes
-                fileUrl={pdf}
-                theme="dark"
-                plugins={[defaultLayoutPluginInstance, zoomPluginInstance]}
-                onDocumentLoad={() => {
-                  zoom(zoomLevel); // Adjust zoom level after document load
-                }}
-              />
-              </Worker>
+              {isClient && (
+                <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+                  <Viewer
+                    key={zoomLevel} // still good to rerender if zoom changes
+                    fileUrl={pdf}
+                    theme="dark"
+                    plugins={[defaultLayoutPluginInstance, zoomPluginInstance]}
+                    onDocumentLoad={() => {
+                      zoom(zoomLevel);
+                    }}
+                  />
+                </Worker>
+              )}
 
               </Grid>
             </Grid.Container>
