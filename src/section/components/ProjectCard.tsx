@@ -59,7 +59,7 @@ function ProjectCard({
 
   useEffect(() => {
     const isXS = window.innerWidth < 600;
-    setZoomLevel(isXS ? 0.6 : 1.5);
+    setZoomLevel(isXS ? 0.6 : 1.8);
     setIsClient(true); // Only show Viewer after we're in the browser
   }, []);
   
@@ -269,7 +269,7 @@ function ProjectCard({
                     key={zoomLevel} // still good to rerender if zoom changes
                     fileUrl={pdf}
                     theme="dark"
-                    plugins={[defaultLayoutPluginInstance, zoomPluginInstance]}
+                    plugins={[ zoomPluginInstance]}
                     defaultScale={zoomLevel}
                   />
                 </Worker>

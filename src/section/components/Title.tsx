@@ -1,20 +1,27 @@
 import type { ReactElement } from 'react';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
-  Card, Image, Grid, Text,
-  Spacer,
+  Card, Image, Grid, Text, Spacer,
 } from '@nextui-org/react';
-
 import logo from '../../assets/AF logo.png';
 
 function Title(): ReactElement {
+  const [isXs, setIsXs] = useState(window.innerWidth < 650);
+
+  useEffect(() => {
+    const handleResize = () => setIsXs(window.innerWidth < 650);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  const spaces = isXs ? '\u00A0'.repeat(12) : '\u00A0'.repeat(3);
+
   return (
     <Card
       css={{
         textAlign: 'center',
         width: 'fit-content',
         background: 'transparent',
-
       }}
     >
       <Grid.Container css={{ display: 'flex', flexDirection: 'column', '@md': { flexDirection: 'row' } }}>
@@ -24,7 +31,6 @@ function Title(): ReactElement {
             css={{
               width: '12vh',
               height: '12vh',
-
             }}
           />
         </Grid>
@@ -38,12 +44,12 @@ function Title(): ReactElement {
               letterSpacing: '$wide',
             }}
           >
-            &nbsp;&nbsp;Graphic Designer + Digital Marketer
+            {spaces}Graphic Designer + Digital Marketer
           </Text>
         </Grid>
       </Grid.Container>
     </Card>
-
   );
 }
+
 export default Title;

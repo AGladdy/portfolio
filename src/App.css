@@ -46,3 +46,16 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* Remove black background from PDF viewer */
+.rpv-core__viewer {
+  background-color: transparent !important;
+}
+
+.rpv-core__inner-page {
+  background-color: transparent !important;
+}
+
+.rpv-core__canvas-layer {
+  background-color: transparent !important;
+}
