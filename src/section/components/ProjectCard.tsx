@@ -54,7 +54,7 @@ function ProjectCard({
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
   const zoomPluginInstance = zoomPlugin();
   const zoom = zoomPluginInstance.zoomTo;
-  const [zoomLevel, setZoomLevel] = useState(1.5); // Default fallback
+  const [zoomLevel, setZoomLevel] = useState(1.8); // Default fallback
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
