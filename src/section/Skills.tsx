@@ -507,7 +507,7 @@ function Skills(): ReactElement {
               <Card.Body>
                 <FaAward style={{ color: '#0072F5', fontSize: '2rem', marginBottom: '1rem' }} />
                 <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>Exp.</Text>
-                <Text h6 css={{ letterSpacing: '$normal' }}> 1+ year</Text>
+                <Text h6 css={{ letterSpacing: '$normal' }}> 4+ year</Text>
               </Card.Body>
             </Card>
           </Grid>
@@ -526,7 +526,7 @@ function Skills(): ReactElement {
                 <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>
                   Clients
                 </Text>
-                <Text h6 css={{ letterSpacing: '$normal' }}>4 served</Text>
+                <Text h6 css={{ letterSpacing: '$normal' }}>50+ served</Text>
               </Card.Body>
             </Card>
           </Grid>
@@ -545,7 +545,7 @@ function Skills(): ReactElement {
                 <Text h5 weight="bold" css={{ letterSpacing: '$normal' }}>
                   Projects
                 </Text>
-                <Text h6 css={{ letterSpacing: '$normal' }}>30+ built</Text>
+                <Text h6 css={{ letterSpacing: '$normal' }}>70+ built</Text>
               </Card.Body>
             </Card>
           </Grid>
