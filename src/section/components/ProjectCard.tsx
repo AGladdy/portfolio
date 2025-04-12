@@ -9,6 +9,7 @@ import { Viewer, Worker } from '@react-pdf-viewer/core';
 
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
+import { zoomPlugin } from '@react-pdf-viewer/zoom';
 
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 import Character from '../../assets/profilephoto.png';
@@ -20,6 +21,7 @@ import vid5 from '../../assets/hallow.mp4';
 import vid6 from '../../assets/Happy-VDay-2025.mp4';
 import vid7 from '../../assets/red.mp4';
 import vid8 from '../../assets/sss.mp4';
+import { Page } from 'react-pdf';
 // import vid9 from '../../assets/levoit.mp4';
 
 interface ProjectCardProps {
@@ -50,6 +52,11 @@ function ProjectCard({
     setCurrentColor(currentColor === 'black' ? '#fb3958' : 'black');
   };
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
+  const zoomPluginInstance = zoomPlugin();
+  const zoom = zoomPluginInstance.zoomTo;
+  const isXS = window.innerWidth < 600; // or use your theme's XS breakpoint
+  const zoomLevel = isXS ? 0.6 : 1.5;
+  
   return (
     <Card
       onPress={() => setVisible(true)}
@@ -220,7 +227,7 @@ function ProjectCard({
                     color="primary"
                     ripple
                     animated
-                    as={Link}
+                   as="a"
                     href={website}
                     icon={(
                       <svg fill="none" viewBox="0 0 24 24" height="24" width="24">
@@ -250,11 +257,16 @@ function ProjectCard({
               <Spacer />
               <Grid xs={12} css={{ alignItems: 'center', justifyContent: 'center' }}>
 
-                <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
-
-                  <Viewer fileUrl={pdf} plugins={[defaultLayoutPluginInstance]} theme="dark" />
-
-                </Worker>
+              <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+              <Viewer
+                fileUrl={pdf}
+                theme="dark"
+                plugins={[defaultLayoutPluginInstance, zoomPluginInstance]}
+                onDocumentLoad={() => {
+                  zoom(zoomLevel); // Adjust zoom level after document load
+                }}
+              />
+              </Worker>
 
               </Grid>
             </Grid.Container>

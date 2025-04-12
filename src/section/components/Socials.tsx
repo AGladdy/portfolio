@@ -16,7 +16,7 @@ function Socials(): ReactElement {
           ripple
           auto
           animated
-          as={Link}
+         as="a"
           href="https://www.instagram.com/annalisefw/?hl=en"
           css={{
             color: 'White',
@@ -53,7 +53,7 @@ function Socials(): ReactElement {
           auto
           ripple
           animated
-          as={Link}
+         as="a"
           href="https://www.tiktok.com/@annalisefw?is_from_webapp=1&sender_device=pc"
           css={{
             color: 'White',
@@ -88,7 +88,7 @@ function Socials(): ReactElement {
           auto
           ripple
           animated
-          as={Link}
+         as="a"
           href="https://www.youtube.com/channel/UC5ZsjKP0P-LlC044P-efQvA"
           css={{
             color: 'White',
@@ -124,7 +124,7 @@ function Socials(): ReactElement {
           auto
           ripple
           animated
-          as={Link}
+         as="a"
           href="https://annalisefwugcportfolio.my.canva.site/"
           css={{
             color: 'White',
@@ -173,7 +173,7 @@ function Socials(): ReactElement {
           auto
           ripple
           animated
-          as={Link}
+         as="a"
           href="https://www.linkedin.com/in/annalise-wheeler-4a909a21b/"
           css={{
             color: 'White',
@@ -213,7 +213,7 @@ function Socials(): ReactElement {
           auto
           ripple
           animated
-          as={Link}
+         as="a"
           href="https://github.com/annalisefaith"
           css={{
             color: 'White',

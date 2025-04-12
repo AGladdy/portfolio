@@ -45,7 +45,7 @@ function Projects(): ReactElement {
             </Grid>
             <Grid md={6}>
 
-              <ProjectCard text="(RED) Social Media" pdf={tsPdf} postPic={tsPic} hasWebsite website="https://www.red.org/reditorial/learn/4-reasons-iron-deficiency-can-be-dangerous-for-people-living-with-hiv/" />
+              <ProjectCard text="(RED) Print and Events" pdf={sPdf} postPic={sPic} />
 
             </Grid>
             <Grid md={6}>
@@ -55,7 +55,7 @@ function Projects(): ReactElement {
             </Grid>
             <Grid md={6}>
 
-              <ProjectCard text="(RED) Print and Events" pdf={sPdf} postPic={sPic} />
+              <ProjectCard text="(RED) Social Media" pdf={tsPdf} postPic={tsPic} hasWebsite website="https://www.red.org/reditorial/learn/4-reasons-iron-deficiency-can-be-dangerous-for-people-living-with-hiv/" />
 
             </Grid>
             <Grid md={6}>

@@ -52,7 +52,7 @@ function CV(): ReactElement {
                 '@sm': { minWidth: '30%' },
               }}
               onPress={handleScrollToContact}
-              as={Link}
+             as="a"
               icon={<BsSendFill />}
             >
               Let&apos;s Talk
@@ -77,7 +77,7 @@ function CV(): ReactElement {
                 minWidth: '100%',
                 '@sm': { minWidth: '30%' },
               }}
-              as={Link}
+             as="a"
               onClick={() => {
                 const link = document.createElement('a');
                 link.href = cv; // Replace with the actual path to your PDF file
