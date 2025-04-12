@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react';
+import React, { ReactElement, useEffect  } from 'react';
 import { Grid, Tooltip } from '@nextui-org/react';
 // eslint-disable-next-line import/no-named-as-default
 import ProjectCard from './components/ProjectCard';
@@ -28,6 +28,27 @@ import vDayPdf from '../assets/ValentinesDay_website.pdf';
 import shortPic from '../assets/shortVideo_cover.gif';
 
 function Projects(): ReactElement {
+  useEffect(() => {
+    const pdfs = [
+      dc,
+      tc,
+      mates,
+      max,
+      moaaPdf,
+      songPdf,
+      tsPdf,
+      sPdf,
+      vDayPdf,
+    ];
+    pdfs.forEach((url) => {
+      fetch(url)
+        .then((res) => {
+          if (res.ok) console.log(`✅ Prefetched: ${url}`);
+        })
+        .catch((err) => console.warn(`❌ Prefetch failed: ${url}`, err));
+    });
+  }, []);
+
   return (
     <Grid.Container id="test" css={{ marginTop: '16px' }}>
       <Tooltip shadow content="Click to view" placement="top">
