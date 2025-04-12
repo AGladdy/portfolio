@@ -263,6 +263,7 @@ function ProjectCard({
 
               <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
               <Viewer
+                key={zoomLevel} // triggers rerender when zoomLevel changes
                 fileUrl={pdf}
                 theme="dark"
                 plugins={[defaultLayoutPluginInstance, zoomPluginInstance]}
