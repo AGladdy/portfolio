@@ -270,9 +270,7 @@ function ProjectCard({
                     fileUrl={pdf}
                     theme="dark"
                     plugins={[defaultLayoutPluginInstance, zoomPluginInstance]}
-                    onDocumentLoad={() => {
-                      zoom(zoomLevel);
-                    }}
+                    defaultScale={zoomLevel}
                   />
                 </Worker>
               )}
