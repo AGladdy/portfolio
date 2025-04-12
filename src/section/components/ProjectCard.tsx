@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 
-import type { ReactElement } from 'react';
+import { ReactElement, useEffect } from 'react';
 import React, { useState } from 'react';
 import {
   Button, Card, Col, User, Text, Modal, useModal, Container, Tooltip, Grid, Spacer, Link,
@@ -54,8 +54,12 @@ function ProjectCard({
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
   const zoomPluginInstance = zoomPlugin();
   const zoom = zoomPluginInstance.zoomTo;
-  const isXS = window.innerWidth < 600; // or use your theme's XS breakpoint
-  const zoomLevel = isXS ? 0.6 : 1.5;
+  const [zoomLevel, setZoomLevel] = useState(1.5); // Default fallback
+
+  useEffect(() => {
+    const isXS = window.innerWidth < 600;
+    setZoomLevel(isXS ? 0.6 : 1.5);
+  }, []);
   
   return (
     <Card
