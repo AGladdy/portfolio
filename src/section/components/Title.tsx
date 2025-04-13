@@ -14,7 +14,7 @@ function Title(): ReactElement {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  const spaces = isXs ? '\u00A0'.repeat(10) : '\u00A0'.repeat(3);
+  const spaces = isXs ? '\u00A0'.repeat(8) : '\u00A0'.repeat(3);
 
   return (
     <Card
