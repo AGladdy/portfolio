@@ -26,6 +26,8 @@ import sPdf from '../assets/printportfolio.pdf';
 import vDay from '../assets/Vdaycover.png';
 import vDayPdf from '../assets/ValentinesDay_website.pdf';
 import shortPic from '../assets/shortVideo_cover.gif';
+import eventsCover from '../assets/EventCover.jpg';
+import eventPhoto from '../assets/(RED)events.pdf';
 
 function Projects(): ReactElement {
   useEffect(() => {
@@ -54,46 +56,53 @@ function Projects(): ReactElement {
       <Tooltip shadow content="Click to view" placement="top">
         <Grid>
           <Grid.Container gap={2} alignItems="center" justify="space-evenly">
-            <Grid md={6}>
+            <Grid md={4}>
 
-              <ProjectCard text="(RED) Song of Summer Campaign ft. Fiat and Chart Data" pdf={songPdf} postPic={songPic} hasWebsite website="https://www.red.org/reditorial/partnership/the-song-of-the-summer-fiat/" />
-
-            </Grid>
-            <Grid md={6}>
-
-              <ProjectCard text="(RED) Valentine's Day Campaign" pdf={vDayPdf} postPic={vDay} />
+              <ProjectCard text="Song of Summer Campaign ft. Fiat" pdf={songPdf} postPic={songPic} hasWebsite website="https://www.red.org/reditorial/partnership/the-song-of-the-summer-fiat/" />
 
             </Grid>
-            <Grid md={6}>
+            <Grid md={4}>
 
-              <ProjectCard text="(RED) Print and Events" pdf={sPdf} postPic={sPic} />
+              <ProjectCard text="Events" pdf={eventPhoto} postPic={eventsCover} />
 
             </Grid>
-            <Grid md={6}>
+            
+            <Grid md={4}>
+
+              <ProjectCard text="Valentine's Day Campaign" pdf={vDayPdf} postPic={vDay} />
+
+            </Grid>
+            
+            <Grid md={4}>
+
+              <ProjectCard text="Physical Prints" pdf={sPdf} postPic={sPic} />
+
+            </Grid>
+            <Grid md={4}>
 
               <ProjectCard text="Short Form Videos" pdf={shortPic} postPic={shortPic} isSocialMedia />
 
             </Grid>
-            <Grid md={6}>
+            <Grid md={4}>
 
-              <ProjectCard text="(RED) Social Media" pdf={tsPdf} postPic={tsPic} hasWebsite website="https://www.red.org/reditorial/learn/4-reasons-iron-deficiency-can-be-dangerous-for-people-living-with-hiv/" />
+              <ProjectCard text="Social Media" pdf={tsPdf} postPic={tsPic} hasWebsite website="https://www.red.org/reditorial/learn/4-reasons-iron-deficiency-can-be-dangerous-for-people-living-with-hiv/" />
 
             </Grid>
-            <Grid md={6}>
+            <Grid md={4}>
 
               <ProjectCard text="Trend Cycle" pdf={tc} hasVideo video={tcVid} postPic={tcPic} hasWebsite website="https://annalisefaith.github.io/Trend-Cycle/about.html" />
 
             </Grid>
-            <Grid md={6}>
+            <Grid md={4}>
               <ProjectCard text="Drop Culture" pdf={dc} hasVideo video={dcVid} postPic={dcPic} hasWebsite website="https://annalisefaith.github.io/Drop-Culture/" />
             </Grid>
-            <Grid md={6}>
+            <Grid md={4}>
               <ProjectCard text="Mates" pdf={mates} hasVideo video={matesVideo} postPic={matesPic} hasWebsite website="https://www.figma.com/proto/gMLNEZkVFqgYNtswSZnclB/Mates-Protoype?type=design&t=l1RHxF2c84zyCjjp-1&scaling=scale-down&page-id=0%3A1&node-id=1-2" />
             </Grid>
-            <Grid md={6}>
+            <Grid md={4}>
               <ProjectCard text="Max Conference" pdf={max} hasVideo video={maxVid} postPic={maxPic} hasWebsite={false} website="" />
             </Grid>
-            <Grid md={6}>
+            <Grid md={4}>
               <ProjectCard text="Military Officers Association of America" hasVideo={false} video="" pdf={moaaPdf} postPic={moaa} hasWebsite={false} website="" />
             </Grid>
           </Grid.Container>
