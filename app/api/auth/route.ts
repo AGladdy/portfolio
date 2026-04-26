@@ -1,0 +1,18 @@
+import { NextResponse } from 'next/server'
+
+export async function POST(request: Request) {
+  const { password } = await request.json()
+
+  if (password !== process.env.PORTFOLIO_PASSWORD) {
+    return NextResponse.json({ ok: false }, { status: 401 })
+  }
+
+  const response = NextResponse.json({ ok: true })
+  response.cookies.set('af_auth', process.env.PORTFOLIO_SECRET!, {
+    httpOnly: true,
+    sameSite: 'lax',
+    maxAge: 60 * 60 * 24 * 7, // 7 days
+    path: '/',
+  })
+  return response
+}
