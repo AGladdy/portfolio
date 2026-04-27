@@ -127,9 +127,9 @@ export default function Hero() {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
-          className="hidden md:flex justify-end"
+          className="flex justify-center md:justify-end"
         >
-          <div className="relative w-full max-w-xs lg:max-w-sm">
+          <div className="relative w-full max-w-[220px] md:max-w-xs lg:max-w-sm">
             <div className="absolute -bottom-5 -right-5 w-full h-full border border-accent/20" />
             <div className="absolute -top-5 -left-5 w-full h-full border border-accent/10" />
             <div className="relative aspect-[3/4] overflow-hidden border border-border">
