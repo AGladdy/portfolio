@@ -72,7 +72,7 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="/assets/cv3.pdf"
+            href="/assets/AnnaliseWheeler_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="font-sans text-xs tracking-[0.2em] uppercase px-5 py-2 border border-accent/60 text-accent hover:bg-accent hover:text-bg transition-all duration-200"
@@ -115,7 +115,7 @@ export default function Nav() {
                 </a>
               ))}
               <a
-                href="/assets/cv3.pdf"
+                href="/assets/AnnaliseWheeler_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-4 font-sans text-xs text-accent tracking-[0.2em] uppercase"
