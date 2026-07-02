@@ -11,8 +11,8 @@ interface TrailItem {
   rotate: number
 }
 
-const SPAWN_DISTANCE = 70
-const LIFESPAN_MS = 900
+const SPAWN_DISTANCE = 68
+const LIFESPAN_MS = 450
 const MAX_ITEMS = 6
 
 export default function CursorTrail({ images }: { images: string[] }) {
@@ -70,11 +70,11 @@ export default function CursorTrail({ images }: { images: string[] }) {
         {items.map((item) => (
           <motion.div
             key={item.id}
-            initial={{ opacity: 0, scale: 0.6 }}
-            animate={{ opacity: 1, scale: 1, rotate: item.rotate }}
-            exit={{ opacity: 0, scale: 0.85 }}
-            transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-            className="absolute w-16 h-16 md:w-20 md:h-20 -translate-x-1/2 -translate-y-1/2 rounded-md overflow-hidden border border-accent/30 shadow-lg shadow-black/50"
+            initial={{ opacity: 0, scale: 0.6, filter: 'blur(6px)' }}
+            animate={{ opacity: 1, scale: 1, rotate: item.rotate, filter: 'blur(0px)' }}
+            exit={{ opacity: 0, scale: 0.85, filter: 'blur(8px)' }}
+            transition={{ duration: 0.18, ease: [0.16, 1, 0.3, 1] }}
+            className="absolute w-16 h-16 md:w-20 md:h-20 -translate-x-1/2 -translate-y-1/2 overflow-hidden border border-accent/30 shadow-lg shadow-black/50"
             style={{ left: item.x, top: item.y }}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
