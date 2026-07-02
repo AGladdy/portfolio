@@ -39,16 +39,16 @@ export const projects: Project[] = [
         tagline:
           'Integrated TV + social campaign turning nasal congestion into a trial-driving promo.',
         paragraphs: [
-          'An off-season campaign that reframes an unglamorous problem — the gunk in everyone\'s nose — into a shareable, identifiable moment. Originally built as a UGC challenge, the concept was reworked before launch: the challenge required owning the device to participate, which gated the very people it needed to convert. The live version (now in market) trades the challenge for a Great Gunk Out badge and social promo anyone can engage with, plus a sweepstakes to win a Naväge bundle and prizes — shifting the mechanic from "share your results" to "try it and enter," so it actually pulls in new users instead of only existing ones.',
+          'This campaign turned an unglamorous topic, nasal congestion, into something fun and shareable. The original UGC challenge only worked for people who already owned the device, so before launch it was reworked into a "Great Gunk Out" badge, social promo, and sweepstakes that anyone could join, shifting the goal to bring in new customers instead of just existing ones.',
         ],
         highlights: [
           {
             label: 'TV spot (:15)',
-            text: "Contributed to storyboarding, creator and visual sourcing, and cross-team coordination across KWG and Naväge to align the campaign and its goals. Result: beat the brand's allergy-season control on Cable, the largest placement (49 of 53 groups), at 5.42 vs. 5.00 adjusted ROAS.",
+            text: "Contributed to storyboarding, sourced creators and visuals, and coordinated across teams to keep the campaign aligned. The spot reached 5.7M views and beat the brand's allergy-season benchmark on Cable, its biggest placement, by 0.42 points of ROAS.",
           },
           {
             label: 'Social video',
-            text: 'Owned end to end: creator sourcing and content, wireframing, graphics, social copywriting, and edit. Result: a placement-dependent winner on Meta — a click-driver in traffic (2.7% CTR) and a deep-view driver in awareness (38.6% 2/3s VVR).',
+            text: 'Owned end to end: creator sourcing, concept and copy, wireframes, graphics, and editing. On Meta, it was a top click-driver and kept nearly 4 in 10 viewers watching well into the video.',
           },
         ],
         videos: ['/assets/nav-tggo.mp4'],
@@ -59,8 +59,8 @@ export const projects: Project[] = [
         tagline:
           "Pre-Prime and Prime Day creative built to convert during the year's highest-intent retail window.",
         paragraphs: [
-          'Owned the campaign end to end: concept and ethos, storyboarding, wireframing, and planning the pre-Prime and Prime Day asset waves in coordination with the Naväge and internal teams — through to video editing and promo graphics across both video and static.',
-          'Results — the creative proved a clear platform-fit story. On Meta, the Prime Day cuts led video completion in the set (~25–26% VCR) and earned a Top Performer rating. On TikTok, the same assets underperformed the early-view bar (lowest 2-second view rates, highest cost-per-click) and were paused — a hook problem, not a quality one — which directly informed the next round of TikTok-native re-cuts.',
+          'Owned this campaign end to end: concept, storyboarding, wireframing, and planning the asset waves in coordination with the Naväge and internal teams, through to video editing and promo graphics across both video and static formats.',
+          'Results — on Meta, the Prime Day videos led the set in completion rate (about 25 to 26%) and earned a Top Performer rating. On TikTok, the same assets underperformed early on (fewer people watched past the first couple seconds, higher cost per click) and were paused. This pointed to a hook problem, not a quality problem, and directly shaped the next round of TikTok-specific edits.',
         ],
         videos: [
           '/assets/nav-preprime-wave11.mp4',
@@ -73,20 +73,20 @@ export const projects: Project[] = [
         tagline:
           'A complete run of video and static assets across Meta and TikTok, built and optimized for performance.',
         paragraphs: [
-          "Owned the creative end to end: ideation, scripting, wireframing, graphics, video editing, and copywriting — plus client and internal communication, influencer and creator sourcing, market-relevant message positioning (allergy vs. cold/flu), and sizing assets to Meta's safe zone for readability.",
+          "Owned the creative end to end: ideation, scripting, wireframing, graphics, video editing, and copywriting, along with sourcing influencers and creators and sizing every asset to Meta's safe zone for readability. Worked closely with strategy and project management throughout, aligning on messaging priorities (allergy vs. cold/flu season) and using performance data to guide what creative to build next and where to shift budget.",
         ],
         highlights: [
           {
-            label: 'Managed ~$34K across Meta and TikTok, reaching 2.5M people',
-            text: 'Identified that each platform did a different job: TikTok delivered 61% of reach for under a quarter of the budget, while Meta drove 96% of clicks at a $0.45 CPC (vs. $3.25 on TikTok). That read drove a clear per-dollar allocation recommendation.',
+            label: 'Platform performance revealed two very different jobs',
+            text: 'TikTok built reach, Meta drove action. TikTok delivered the majority of total reach, while Meta converted far more efficiently on clicks, informing how budget was split across the two platforms going forward.',
           },
           {
-            label: 'Tested a full slate and found the winner',
-            text: '"VsNeti-Awkward" earned half the Meta budget on its own at a 5.9% click rate. The test also mapped message-to-job: comparison and influencer creative drive clicks; efficacy messaging drives full views.',
+            label: 'Creative testing surfaced a clear winner and a message-to-job map',
+            text: '"VsNeti-Awkward" outperformed the rest of the set with a 5.9% click rate, becoming the top-performing asset in the Meta lineup. The test also revealed a pattern: comparison and influencer-style content drove clicks, while efficacy-focused messaging drove longer, full video views — an insight that shaped which type of creative to lean into for which goal.',
           },
           {
-            label: 'Cut underperformers fast',
-            text: 'Several creatives paused at $0 spend before burning budget, concentrating spend on what was working.',
+            label: 'Cut underperformers early',
+            text: 'Worked with the project manager to pause several creatives before they spent anything, keeping budget focused on what was working.',
           },
         ],
         videos: [
