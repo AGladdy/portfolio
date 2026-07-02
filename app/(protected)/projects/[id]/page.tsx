@@ -44,7 +44,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
             >
               {project.title}
             </h1>
-            <p className="font-sans text-muted text-base leading-relaxed max-w-2xl">
+            <p className="font-sans text-[#d1d5db] text-base leading-relaxed max-w-2xl">
               {project.description}
             </p>
           </div>

@@ -9,7 +9,6 @@ type Category = 'All' | string
 
 const categories: Category[] = [
   'All',
-  'Naväge',
   'Campaign',
   'Branding',
   'UI/UX Design',

@@ -51,7 +51,7 @@ export default function ProjectModal({ project, onClose }: Props) {
                 <h2 className="font-display text-xl md:text-2xl font-bold text-white leading-tight mb-2">
                   {project.title}
                 </h2>
-                <p className="font-sans text-sm text-muted leading-relaxed max-w-xl">
+                <p className="font-sans text-sm text-[#d1d5db] leading-relaxed max-w-xl">
                   {project.description}
                 </p>
               </div>

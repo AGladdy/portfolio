@@ -26,7 +26,7 @@ export default function ProjectSections({ sections }: { sections: ProjectSection
           )}
 
           {section.paragraphs?.map((p, i) => (
-            <p key={i} className="font-sans text-sm text-muted leading-relaxed mb-4">
+            <p key={i} className="font-sans text-sm text-[#d1d5db] leading-relaxed mb-4">
               {p}
             </p>
           ))}
@@ -36,7 +36,7 @@ export default function ProjectSections({ sections }: { sections: ProjectSection
               {section.highlights.map((h, i) => (
                 <li key={i} className="border-l border-accent/40 pl-4">
                   <p className="font-sans text-sm text-white font-semibold mb-1">{h.label}</p>
-                  <p className="font-sans text-sm text-muted leading-relaxed">
+                  <p className="font-sans text-sm text-[#d1d5db] leading-relaxed">
                     {h.text}
                   </p>
                 </li>

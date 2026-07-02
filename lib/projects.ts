@@ -28,7 +28,7 @@ export const projects: Project[] = [
   {
     id: 'navage',
     title: 'Naväge',
-    category: 'Naväge',
+    category: 'Campaign',
     description:
       'Great Gunk Out, Amazon Prime Day, and always-on paid social creative — TV, Meta, and TikTok campaigns owned end to end from concept through edit.',
     cover: '/assets/nav-cover.png',
