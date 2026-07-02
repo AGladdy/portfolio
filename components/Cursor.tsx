@@ -10,8 +10,8 @@ export default function Cursor() {
   const mouseX = useMotionValue(-200)
   const mouseY = useMotionValue(-200)
 
-  const ringX = useSpring(mouseX, { stiffness: 180, damping: 18, mass: 0.4 })
-  const ringY = useSpring(mouseY, { stiffness: 180, damping: 18, mass: 0.4 })
+  const x = useSpring(mouseX, { stiffness: 300, damping: 24, mass: 0.4 })
+  const y = useSpring(mouseY, { stiffness: 300, damping: 24, mass: 0.4 })
 
   useEffect(() => {
     if (window.matchMedia('(hover: none)').matches) return
@@ -43,26 +43,13 @@ export default function Cursor() {
   if (!mounted) return null
 
   return (
-    <>
-      {/* Dot — instant */}
-      <motion.div
-        style={{ x: mouseX, y: mouseY }}
-        animate={{ scale: hovering ? 0 : 1, opacity: hovering ? 0 : 1 }}
-        transition={{ duration: 0.15 }}
-        className="fixed top-0 left-0 z-[9999] pointer-events-none"
-      >
-        <div className="w-2 h-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent" />
-      </motion.div>
-
-      {/* Ring — spring lag */}
-      <motion.div
-        style={{ x: ringX, y: ringY }}
-        animate={{ scale: hovering ? 1.7 : 1 }}
-        transition={{ duration: 0.25 }}
-        className="fixed top-0 left-0 z-[9998] pointer-events-none"
-      >
-        <div className="w-9 h-9 -translate-x-1/2 -translate-y-1/2 rounded-full border border-accent/50" />
-      </motion.div>
-    </>
+    <motion.div
+      style={{ x, y }}
+      animate={{ scale: hovering ? 1.8 : 1 }}
+      transition={{ duration: 0.2 }}
+      className="fixed top-0 left-0 z-[9999] pointer-events-none"
+    >
+      <div className="w-6 h-6 -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent" />
+    </motion.div>
   )
 }

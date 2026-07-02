@@ -9,6 +9,7 @@ type Category = 'All' | string
 
 const categories: Category[] = [
   'All',
+  'Naväge',
   'Campaign',
   'Branding',
   'UI/UX Design',
@@ -104,7 +105,7 @@ export default function Projects() {
 
       {/* Grid view */}
       {view === 'grid' && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 auto-rows-[280px] lg:auto-rows-[360px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {filtered.map((project, i) => (
             <motion.button
               key={project.id}
@@ -113,9 +114,7 @@ export default function Projects() {
               viewport={{ once: true }}
               transition={{ duration: 0.55, delay: (i % 3) * 0.08 }}
               onClick={() => router.push(`/projects/${project.id}`)}
-              className={`group relative overflow-hidden bg-surface text-left focus:outline-none focus-visible:ring-1 focus-visible:ring-accent ${
-                project.span === 2 ? 'sm:col-span-2' : ''
-              }`}
+              className="group relative aspect-square overflow-hidden bg-surface text-left focus:outline-none focus-visible:ring-1 focus-visible:ring-accent"
             >
               {/* Number label */}
               <div className="absolute top-4 left-4 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -163,7 +162,7 @@ export default function Projects() {
               <motion.button
                 key={project.id}
                 onClick={() => router.push(`/projects/${project.id}`)}
-                className="group relative flex-shrink-0 w-64 h-96 overflow-hidden bg-surface text-left focus:outline-none"
+                className="group relative flex-shrink-0 w-72 aspect-square overflow-hidden bg-surface text-left focus:outline-none"
                 whileHover={{ y: -4 }}
                 transition={{ duration: 0.3 }}
               >

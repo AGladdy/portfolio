@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FiExternalLink, FiX } from 'react-icons/fi'
 import type { Project } from '@/lib/projects'
+import ProjectSections from './ProjectSections'
 
 interface Props {
   project: Project | null
@@ -65,7 +66,9 @@ export default function ProjectModal({ project, onClose }: Props) {
 
             {/* Body */}
             <div className="p-6 space-y-6">
-              {project.isSocialMedia && project.videos ? (
+              {project.sections ? (
+                <ProjectSections sections={project.sections} />
+              ) : project.isSocialMedia && project.videos ? (
                 /* Short form video grid */
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                   {project.videos.map((src, i) => (

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import dynamic from 'next/dynamic'
 import { FiArrowLeft, FiExternalLink } from 'react-icons/fi'
 import Nav from '@/components/Nav'
+import ProjectSections from '@/components/ProjectSections'
 import { projects } from '@/lib/projects'
 
 const PdfViewer = dynamic(() => import('@/components/PdfViewer'), { ssr: false })
@@ -50,8 +51,11 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
 
           {/* Content */}
           <div className="space-y-12">
+            {/* Multi-section case study */}
+            {project.sections && <ProjectSections sections={project.sections} />}
+
             {/* Social media video grid */}
-            {project.isSocialMedia && project.videos && (
+            {!project.sections && project.isSocialMedia && project.videos && (
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {project.videos.map((src, i) => (
                   <div key={i} className="aspect-[9/16] bg-surface overflow-hidden">

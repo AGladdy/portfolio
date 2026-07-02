@@ -47,7 +47,7 @@ export default function Nav() {
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <a
           href="#"
-          className="font-logo text-xl text-white tracking-[0.2em] hover:text-accent transition-colors duration-300"
+          className="font-logo text-xl text-white tracking-[0.2em] hover:text-accent-light transition-colors duration-300"
         >
           AF
         </a>

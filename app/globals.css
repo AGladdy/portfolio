@@ -23,13 +23,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Hide default cursor on pointer devices */
-@media (hover: hover) {
-  *, *::before, *::after {
-    cursor: none !important;
-  }
-}
-
 * {
   box-sizing: border-box;
 }
@@ -45,7 +38,7 @@ body {
   border-radius: 2px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #C8A97E;
+  background: #FFFFFF;
 }
 
 /* ── Grain overlay ─────────────────────────────── */
