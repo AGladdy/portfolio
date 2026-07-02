@@ -9,7 +9,6 @@ interface TrailItem {
   y: number
   src: string
   rotate: number
-  blurred: boolean
 }
 
 const SPAWN_DISTANCE = 70
@@ -41,13 +40,12 @@ export default function CursorTrail({ images }: { images: string[] }) {
       lastPos.current = { x, y }
 
       const id = counter.current++
-      const blurred = id % 3 === 2
       const src = images[imgIndex.current % images.length]
       imgIndex.current++
 
       setItems((prev) => [
         ...prev.slice(-(MAX_ITEMS - 1)),
-        { id, x, y, src, rotate: Math.random() * 16 - 8, blurred },
+        { id, x, y, src, rotate: Math.random() * 16 - 8 },
       ])
 
       const timer = setTimeout(() => {
@@ -80,11 +78,7 @@ export default function CursorTrail({ images }: { images: string[] }) {
             style={{ left: item.x, top: item.y }}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={item.src}
-              alt=""
-              className={`w-full h-full object-cover ${item.blurred ? 'blur-[7.5px] scale-125' : ''}`}
-            />
+            <img src={item.src} alt="" className="w-full h-full object-cover" />
           </motion.div>
         ))}
       </AnimatePresence>
