@@ -4,6 +4,7 @@ import { useState, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { projects } from '@/lib/projects'
+import CoverImage from './CoverImage'
 
 type Category = 'All' | string
 
@@ -122,9 +123,10 @@ export default function Projects() {
                 </span>
               </div>
 
-              <img
+              <CoverImage
                 src={project.cover}
                 alt={project.title}
+                delayMs={project.coverDelayMs}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent" />
@@ -170,9 +172,10 @@ export default function Projects() {
                   {String(i + 1).padStart(2, '0')}
                 </span>
 
-                <img
+                <CoverImage
                   src={project.cover}
                   alt={project.title}
+                  delayMs={project.coverDelayMs}
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />

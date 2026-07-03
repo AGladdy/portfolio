@@ -13,6 +13,7 @@ export interface Project {
   category: string
   description: string
   cover: string
+  coverDelayMs?: number
   span: 1 | 2
   pdf?: string
   hasVideo?: boolean
@@ -161,7 +162,8 @@ export const projects: Project[] = [
     category: 'Campaign',
     description:
       'Campaign creative for (RED)\'s Fiat partnership — social assets, digital collateral, and editorial design amplifying the fight against AIDS.',
-    cover: '/assets/SOS.gif',
+    cover: '/assets/sos-v2.gif',
+    coverDelayMs: 1000,
     span: 2,
     pdf: '/assets/sos.pdf',
     hasWebsite: true,
