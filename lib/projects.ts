@@ -185,7 +185,7 @@ export const projects: Project[] = [
     category: 'Campaign',
     description:
       'Seasonal campaign for (RED) — art direction and digital assets for Valentine\'s Day fundraising across social and web.',
-    cover: '/assets/Vdaycover.png',
+    cover: '/assets/vday.gif',
     span: 1,
     pdf: '/assets/ValentinesDay_website.pdf',
   },
