@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const links = [
@@ -45,12 +46,12 @@ export default function Nav() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a
-          href="#"
+        <Link
+          href="/"
           className="font-logo text-xl text-white tracking-[0.2em] hover:text-accent-light transition-colors duration-300"
         >
           AF
-        </a>
+        </Link>
 
         <nav className="hidden md:flex items-center gap-10">
           {links.map((link) => (
@@ -72,12 +73,12 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="/assets/AnnaliseWheeler_Resume.pdf"
+            href="/assets/AnnaliseFWheeler_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="font-sans text-xs tracking-[0.2em] uppercase px-5 py-2 border border-accent/60 text-accent hover:bg-accent hover:text-bg transition-all duration-200"
           >
-            CV
+            Resume
           </a>
         </nav>
 
@@ -115,12 +116,12 @@ export default function Nav() {
                 </a>
               ))}
               <a
-                href="/assets/AnnaliseWheeler_Resume.pdf"
+                href="/assets/AnnaliseFWheeler_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-4 font-sans text-xs text-accent tracking-[0.2em] uppercase"
               >
-                Download CV
+                Download Resume
               </a>
             </div>
           </motion.div>
