@@ -26,6 +26,58 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: 'st-tropez',
+    title: 'St. Tropez',
+    category: 'Campaign',
+    description:
+      'A multi-phase paid social campaign for St. Tropez\'s full product line — static and video creative across Meta and TikTok, reaching nearly 31 million people.',
+    cover: '/assets/st-tropez.gif',
+    span: 1,
+    sections: [
+      {
+        title: 'Overview',
+        tagline:
+          'A multi-phase paid social campaign supporting the full St. Tropez product line through static and video creative across Meta and TikTok.',
+        paragraphs: [
+          "Designed and edited every asset in this campaign, static and video, following St. Tropez's brand guidelines and Meta's safe zone specs to keep key content visible across all placements. Worked closely with the art director to align on creative direction and brand consistency, and directly with the client, sharing wireframes and drafts for feedback throughout production.",
+        ],
+        highlights: [
+          {
+            label: 'Overall performance',
+            text: 'The campaign reached nearly 31 million people, with click-through, engagement, and video watch-through rates all beating typical benchmarks for beauty/tanning ads on social.',
+          },
+          {
+            label: 'Face Mist and Express Dark led the line',
+            text: 'Both saw the highest engagement and video watch-through of any product line, well above the campaign average.',
+          },
+          {
+            label: '"Express Dark – Demo All" was the strongest single video',
+            text: 'It got nearly double the average number of people watching past the first few seconds — a sign the demo format really grabbed attention.',
+          },
+          {
+            label: 'Influencer-style "Spark" ads were the standout format',
+            text: 'They beat out traditional branded ads on clicks, watch-through, and engagement — proof that authentic, creator-style content resonated more than polished brand ads.',
+          },
+          {
+            label: 'Audience & targeting insight',
+            text: 'Interest-based targeting around self-tan and tanning-specific communities (#tanningtips, #tanningroutine, self-tan) drove the highest engagement and video completion rates of any audience segment, outperforming broader beauty retail interests like Ulta — pointing to strong resonance with tanning-category enthusiasts specifically.',
+          },
+        ],
+        videos: [
+          '/assets/st-cover.png',
+          '/assets/st-bogo-facemist-pairing.mp4',
+          '/assets/st-bogo-facemist-pairing.png',
+          '/assets/st-bogo-classicinstant-pairing.mp4',
+          '/assets/st-bogo-classicinstant-pairing.png',
+          '/assets/st-bogo-classic-stockup.mp4',
+          '/assets/st-bogo-express-stockup.png',
+          '/assets/st-bogo-instant-stockup.jpg',
+          '/assets/st-bogo-all-perfecttan.png',
+        ],
+      },
+    ],
+  },
+  {
     id: 'navage',
     title: 'Naväge',
     category: 'Campaign',
